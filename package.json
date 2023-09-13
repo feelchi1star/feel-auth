@@ -1,0 +1,17 @@
+{
+  "name": "feel-auth",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev",
+    "test": "lerna run  test",
+    "diff": "lerna diff",
+    "client": "lerna run dev --scope=@web/client",
+    "server": "lerna run dev --scope=@web/server",
+    "new-version": "lerna version --convectional-commits --yes"
+  },
+  "dependencies": {
+    "@web/client": "workspace:^",
+    "@web/server": "workspace:^",
+    "lerna": "^7.2.0"
+  }
+}
