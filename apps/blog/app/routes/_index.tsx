@@ -4,10 +4,11 @@ export default function Index(): JSX.Element {
   return (
     <div className="container">
       <h1 className="title">
-        Blog <br />
-        <span>Kitchen Sink</span>
+        @feel-auth/blog <br />
+        <span>This is the Blogs Pages</span>
       </h1>
-      <CounterButton />
+      {/* <CounterButton /> */}
+      <h2>Coming Soon!!!</h2>
       <p className="description">
         Built With <Link href="https://turbo.build/repo">Turborepo</Link>
         {" & "}

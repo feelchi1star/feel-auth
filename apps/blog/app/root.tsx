@@ -16,7 +16,7 @@ import styles from "./styles.css";
 export const meta: V2MetaFunction = () => [
   {
     charset: "utf-8",
-    title: "Blog | Kitchen Sink",
+    title: "@feel-auth/blog | Kitchen Sink",
     viewport: "width=device-width,initial-scale=1",
   },
 ];

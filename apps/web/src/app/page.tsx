@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 export default function Store(): JSX.Element {
-  log("Hey! This is the Store page.");
+  log("Hey! This is the Web page.");
 
   return (
     <div className="container">

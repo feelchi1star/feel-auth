@@ -1,0 +1,25 @@
+{
+  "extends": ["//"],
+  "pipeline": {
+    "build": {
+      "outputs": [".next/**", "!.next/cache/**"],
+      "dotEnv": [
+        ".env.production.local",
+        ".env.local",
+        ".env.production",
+        ".env"
+      ]
+    },
+    "dev": {
+      "dotEnv": [
+        ".env.development.local",
+        ".env.local",
+        ".env.development",
+        ".env"
+      ]
+    },
+    "test": {
+      "dotEnv": [".env.test.local", ".env.test", ".env"]
+    }
+  }
+}

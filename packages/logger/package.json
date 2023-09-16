@@ -19,10 +19,10 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
-    "eslint-config-custom": "*",
-    "jest-presets": "*",
-    "tsconfig": "*",
+    "tsconfig": "workspace:*",
     "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "eslint-config-custom": "workspace:*",
+    "jest-presets": "workspace:*"
   }
 }

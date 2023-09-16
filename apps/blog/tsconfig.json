@@ -6,7 +6,7 @@
     "outDir": "dist",
     "paths": {
       "~/*": ["./app/*"]
-    },
+    }
   },
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"]
 }

@@ -3,8 +3,20 @@
     "lib": ["ES2015"],
     "module": "CommonJS",
     "outDir": "./dist",
+    "paths": {
+      "@config/*": ["./config/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@models/*": ["./src/models/*"],
+      "@middlewares/*": ["./src/middlewares/*"],
+      "@services/*": ["./src/services/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@tests/*": ["./src/tests/*"],
+      "@views/*": ["./src/views/*"]
+    }
   },
+  "typeRoots": ["./node_modules/@types", "@feel-auth/types"],
   "exclude": ["node_modules"],
   "extends": "tsconfig/base.json",
-  "include": ["."]
+  "include": [".", "../../packages/@types"]
 }
