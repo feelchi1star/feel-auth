@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "lerna run dev",
     "test": "lerna run  test",
+    "build": "lerna run build",
     "diff": "lerna diff",
     "client": "lerna run dev --scope=@web/client",
     "server": "lerna run dev --scope=@web/server",

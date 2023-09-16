@@ -2,7 +2,8 @@
   "name": "@web/server",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server.js",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "scripts": {
     "start": "NODE_ENV=production node dist/src/server.js",
     "build": "npx tsc && tsc-alias",
